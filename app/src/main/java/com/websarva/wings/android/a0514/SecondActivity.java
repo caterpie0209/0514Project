@@ -27,4 +27,12 @@ public class SecondActivity extends AppCompatActivity {
         finish();
         return true;
     }
+    /*
+    onSupportNavigateUp()はイベントリスナみたいなもん。
+    でもメニューバーはイベントリスナを自作しなくても、Android側で自動で備わってる。
+    ちなみにboolean型なのは、
+    Android側に「処理が終わったよ！」って知らせるため。
+    trueを返す＝自分でいろいろ設定終わったよ(あとは表示させるだけよ！)
+    …って伝えるため。
+    */
 }
